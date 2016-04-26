@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2D16AE1-5C6C-4655-8C64-978BBD9EC3E3}</ProjectGuid>
+    <ProjectGuid>{D681CEB9-3638-45A9-96EE-70577DE24393}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Rifa</RootNamespace>
-    <AssemblyName>Rifa</AssemblyName>
+    <RootNamespace>SorteoBenefico</RootNamespace>
+    <AssemblyName>SorteoBenefico</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,8 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\..\Files\dlls\EEPlus\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="itextsharp">
-      <HintPath>obj\Debug\itextsharp.dll</HintPath>
+      <HintPath>..\..\Rifa\Rifa\Rifa\obj\Debug\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -82,21 +85,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\maxresdefault.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\12356.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bg-blurry.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2122.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1231.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
       <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
       <VersionMajor>2</VersionMajor>
@@ -126,13 +114,46 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="obj\Debug\" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\222.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\333.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1231.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2122.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12356.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-blurry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2133.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aropale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aroosc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arosmlade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arosmbr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arosmpale.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
