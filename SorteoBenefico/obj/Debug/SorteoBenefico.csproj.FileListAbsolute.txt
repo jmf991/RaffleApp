@@ -19,4 +19,5 @@ E:\source\Projects\C# projects\SorteoBenefico\SorteoBenefico\obj\Debug\SorteoBen
 E:\source\Projects\C# projects\SorteoBenefico\SorteoBenefico\bin\Debug\EPPlus.dll
 E:\source\Projects\C# projects\SorteoBenefico\SorteoBenefico\bin\Debug\EPPlus.xml
 E:\source\Projects\C# projects\SorteoBenefico\SorteoBenefico\bin\Debug\itextsharp.dll
+E:\source\Projects\C# projects\SorteoBenefico\SorteoBenefico\obj\Debug\Interop.ADOX.dll
 E:\source\Projects\C# projects\SorteoBenefico\SorteoBenefico\obj\Debug\SorteoBenefico.csprojResolveAssemblyReference.cache
